@@ -1,10 +1,12 @@
-# What drives air pollution in Madrid, and can we forecast it?
+# Madrid Air Quality, 2001–2024: Data Quality, Sensor Networks and NO₂ Forecasting
 
-**24 years of hourly measurements from 24 monitoring stations (~64 million rows): data quality, temporal patterns, network analysis, parallel computing and a two-year NO₂ forecast.**
+**Research question:** What drives air pollution in Madrid, and can hourly NO₂ be forecast from weather and traffic?
+
+**Data:** METRAQ, hourly readings from 24 stations, 2001–2024 (~64M rows) · **Methods:** imputation, time-series decomposition, graph analysis, parallel computing, random forest and XGBoost
 
 ![Annual mean concentrations of five pollutants, 2001–2024](images/long_run_trends.png)
 
-> **TL;DR**
+> **Key findings**
 > - **NO₂ fell by more than half** between 2001 and 2024 (annual mean from about 57 to 23 µg/m³). CO and SO₂ dropped too. **Ozone went the other way**, rising steadily, because less NO is left to destroy it.
 > - Pollution follows people: NO₂ peaks at the **morning and evening rush hours**, is worst on **winter evenings**, and falls 15–25% at weekends.
 > - Madrid's sensors move together: the **median correlation between stations' NO₂ is 0.875**. Behavioural communities of sensors don't match geographic ones.
