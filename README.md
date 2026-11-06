@@ -2,7 +2,7 @@
 
 **Research question:** What drives air pollution in Madrid, and can hourly NO₂ be forecast from weather and traffic?
 
-**Data:** METRAQ, hourly readings from 24 stations, 2001–2024 (~64M rows) · **Methods:** imputation, time-series decomposition, graph analysis, parallel computing, random forest and XGBoost
+**Completed:** May 2026 · **Data:** METRAQ, hourly readings from 24 stations, 2001–2024 (~64M rows) · **Methods:** imputation, time-series decomposition, graph analysis, parallel computing, random forest and XGBoost
 
 ![Annual mean concentrations of five pollutants, 2001–2024](images/long_run_trends.png)
 
